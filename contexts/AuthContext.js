@@ -15,11 +15,7 @@ export function AuthProvider({ children }){
             
             console.log(response);
         } catch (err){
-            //colocar um switch case, caso o erro for este
-            //verificar se o campo email e senha estao vazios
-            //verificar formato dos campos
-            //mostrar um box que o usuario ou senha estao incorretos
-            console.log("algo de errado aconteceu", err)
+            console.log(err)
         }
         
     }
